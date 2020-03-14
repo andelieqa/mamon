@@ -1,5 +1,5 @@
 body {
-
+  font-family: 'Ubuntu', sans-serif;
 }
 .header {
     width: 100%;
@@ -19,4 +19,20 @@ body {
 }
 .nav>li {
     margin-left: 15px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo_img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    background-image: url(../img/logo.svg);
+    margin-right: 20px;
+}
+.logo_text {
+    font-size: 24px;
+    color: #202020;
+    text-decoration: none;
 }
