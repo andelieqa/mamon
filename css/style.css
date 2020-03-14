@@ -1,3 +1,22 @@
 body {
-    color: red;
+
+}
+.header {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav>li {
+    margin-left: 15px;
 }
