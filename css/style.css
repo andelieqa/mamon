@@ -52,3 +52,10 @@ nav>li>a {
     color: #202020;
     text-decoration: none;
 }
+.page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.page-top {
+    border-top: 1px solid #C2C2C2;
+}
