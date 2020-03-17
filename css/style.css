@@ -14,6 +14,18 @@ body {
     box-sizing: border-box;
     font-weight: 700;
 }
+.footer {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
 .wrap {
   width: 100%;
   max-width: 1180px;
@@ -122,10 +134,23 @@ nav>li>a {
 }
 .clients {
     display: grid;
-    grid-template: 120px 120px / repeat(4, 25%);
+    grid-template: repeat(2, 1fr) / repeat(4, 25%);
     text-align: center;
+    grid-row-gap: 40px;
 }
 .team {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 33%);
+    grid-row-gap: 40px;
+}
+.team-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.team-item img {
+    margin-right: 20px;
+}
+.team-item>div {
+    flex-basis: calc(100% - 100px);
 }
