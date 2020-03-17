@@ -15,16 +15,9 @@ body {
     font-weight: 700;
 }
 .footer {
-  width: 100%;
-  max-width: 1180px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F7F7F7;
 }
 .wrap {
   width: 100%;
