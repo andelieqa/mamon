@@ -147,3 +147,16 @@ nav>li>a {
 .team-item>div {
     flex-basis: calc(100% - 100px);
 }
+.social {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+.social {
+    margin-left: 15px;
+}
+.social>li>a {
+    text-decoration: none;
+    color: #B2B2B2;
+    font-size: 24px;
+}
